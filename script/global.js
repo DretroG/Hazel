@@ -99,7 +99,7 @@ const memories = [
   "Do you remember the times i would sleep in your arms like a baby...😁🙃\nYou will say...''Lovee..Wake up!''...🙂💖",
   "Every memory we’ve shared has made me happier than i've ever imagined...🥰",
   "I will remember this day and every other days i find myswlf around you.\nI am so lucky i met you...🥰🥰💖",
-  "You deserve the Best!...\nMy Sweet Nocciolla...🥰\nso i hope you are smiling...😁\nCause that is want matters to me right now...\nfor you to be happy...🙃",
+  "You deserve the Best!...\nMy Sweet Nocciola...🥰\nso i hope you are smiling...😁\nCause that is want matters to me right now...\nfor you to be happy...🙃",
   "C'mon swwweet...🙂🙃\nI want to see your beautiful smile...😁\nummm...that's great🥰😁\nI can see you in spirit y'know...👀"
 ];
 
@@ -120,7 +120,7 @@ function renderMemory() {
   if (memIndex >= memories.length) {
   const finalBtn = document.createElement("button");
   finalBtn.className = "continue";
-  finalBtn.textContent = "One Last Thing… 🎁";
+  finalBtn.textContent = "One Last Thing...🎁";
   finalBtn.onclick = goToFinalPage;
 
   // ensure visibility
@@ -144,7 +144,7 @@ function renderMemory() {
 
   const btn = document.createElement("button");
   btn.className = "continue";
-  btn.textContent = "Continue… 🙃";
+  btn.textContent = "Continue…..🙃";
   btn.style.display = "none";
   frame.appendChild(btn);
 
@@ -311,7 +311,7 @@ function showNextImage() {
     typeSlowElement(txt, item.text, 50, () => {
       const btn = document.createElement("button");
       btn.className = "continue";
-      btn.textContent = "Continue… 💫";
+      btn.textContent = "Continue...💫";
       frame.appendChild(btn);
       btn.onclick = () => {
         btn.remove();
